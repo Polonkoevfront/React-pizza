@@ -1,5 +1,5 @@
-import { Button, Text } from "../../shared/ui";
 import cls from "./NavBar.module.scss";
+import { Button, Text } from "../../shared/ui";
 
 import logo from "../../shared/assets/png/logo.png";
 import cart_icon from "../../shared/assets/svg/cart.svg";

@@ -4,14 +4,11 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 49px 0;
-  border: 1px solid red;
+
   .nav_logo_bar {
     display: flex;
     align-items: center;
     gap: 17px;
-
-    img {
-    }
 
     div {
       display: flex;
@@ -21,6 +18,7 @@ nav {
       h2 {
         margin: 0;
       }
+
       span {
         color: $color-secondary;
         font-size: 16px;

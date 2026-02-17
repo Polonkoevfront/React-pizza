@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+ul {
+  display: flex;
+  padding: 6% 0;
+
+  li {
+    color: $color_02;
+    font-weight: 700;
+    list-style: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-right: 9px;
+    background: $color_01;
+    cursor: pointer;
+    transition: all 0.1s ease;
+
+    &.active {
+      color: $color_01;
+      background: $color-tertiary;
+    }
+  }
+}
