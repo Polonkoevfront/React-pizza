@@ -27,4 +27,29 @@ nav {
       }
     }
   }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+
+    hr {
+      width: 1px;
+      height: 25px;
+      border: none;
+      background-color: $color-default;
+      opacity: 0.5;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      p {
+        padding-top: 3px;
+      }
+    }
+  }
 }
