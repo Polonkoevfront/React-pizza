@@ -1,0 +1,53 @@
+@import "../../../styles/variables.scss";
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+  &.primary {
+    color: $color-default;
+    background: $color-tertiary;
+  }
+
+  &.default {
+    color: $color-default;
+    background: $color-primary;
+  }
+
+  &.outline {
+    color: $color-primary;
+    background: none;
+    border: 1px solid $color-primary;
+  }
+
+  &.w211 {
+    width: 211px;
+  }
+
+  &.w155 {
+    width: 155px;
+  }
+
+  &.w150 {
+    width: 150px;
+  }
+
+  &.w132 {
+    width: 132px;
+  }
+
+  &.h55 {
+    height: 55px;
+  }
+
+  &.h50 {
+    height: 50px;
+  }
+
+  &.h40 {
+    height: 40px;
+  }
+}

@@ -1,5 +1,11 @@
+import { Routing } from "./App/provider";
+
 function App() {
-  return <div className="App">App</div>;
+  return (
+    <div className="App">
+      <Routing />
+    </div>
+  );
 }
 
 export default App;

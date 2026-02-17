@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 49px 0;
+  border: 1px solid red;
+  .nav_logo_bar {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+    img {
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      h2 {
+        margin: 0;
+      }
+      span {
+        color: $color-secondary;
+        font-size: 16px;
+      }
+    }
+  }
+}
