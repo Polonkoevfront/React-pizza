@@ -1,5 +1,5 @@
-import cls from "HomePage.module.scss";
-import { Category, NavBar } from "../../widgets";
+import cls from "./HomePage.module.scss";
+import { Category, NavBar, Sort } from "../../widgets";
 import { useState } from "react";
 
 export const HomePage = () => {
@@ -8,10 +8,14 @@ export const HomePage = () => {
     <div>
       <div>
         <NavBar />
-        <Category
-          value={categoryId}
-          toogleCategoryClick={(id) => setCategoryId(id)}
-        />
+
+        <div className={cls.sort_bar}>
+          <Category
+            value={categoryId}
+            toogleCategoryClick={(id) => setCategoryId(id)}
+          />
+          <Sort />
+        </div>
       </div>
     </div>
   );
